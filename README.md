@@ -62,7 +62,7 @@ i)Image Translation:
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-input_image=cv2.imread("nat.jpg") 
+input_image=cv2.imread("holmes.jpg") 
 input_image=cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB) 
 plt.axis("off") 
 plt.imshow(input_image)
@@ -80,7 +80,7 @@ ii) Image Scaling:
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-input_image=cv2.imread("nat.jpg") 
+input_image=cv2.imread("holmes.jpg") 
 cv2.imshow
 input_image=cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB) 
 plt.axis("off") 
@@ -99,7 +99,7 @@ iii)Image shearing:
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-input_image=cv2.imread("nat.jpg") 
+input_image=cv2.imread("holmes.jpg") 
 cv2.imshow
 input_image=cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB) 
 plt.axis("off") 
@@ -125,7 +125,7 @@ iv)Image Reflection:
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-input_image=cv2.imread("nat.jpg") 
+input_image=cv2.imread("holmes.jpg") 
 input_image=cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB) 
 plt.axis("off") 
 plt.imshow(input_image)
@@ -147,7 +147,7 @@ v)Image Rotation:
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-input_image=cv2.imread("nat.jpg") 
+input_image=cv2.imread("holmes.jpg") 
 input_image=cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB)
 angle=np.radians(45)
 M=np.float32([[np.cos(angle),-(np.sin(angle)),0],
@@ -163,7 +163,7 @@ vi)Image Cropping:
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-input_image=cv2.imread("nat.jpg") 
+input_image=cv2.imread("holmes.jpg") 
 input_image=cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB)
 cropped_img=input_image[20:150,60:230]
 plt.axis('off')
